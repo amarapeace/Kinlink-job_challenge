@@ -1,0 +1,143 @@
+.header {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-inline: 30%;
+}
+.greenbox {
+  background-color: green;
+  width: 30vw;
+  border-radius: 16px;
+  padding: 2px;
+}
+
+.challenge {
+  color: red;
+}
+.expectations {
+  color: rgb(9, 61, 9);
+}
+
+.whitebox {
+  background-color: white;
+  width: 60vw;
+  border-radius: 16px;
+  border: 3px solid green;
+}
+
+.greenbox1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px auto;
+  background-color: rgb(37, 143, 108);
+  border-radius: 16px;
+  width: 90%;
+  border: 1px solid aqua;
+  
+}
+
+.greenbox2 {
+  background-color: rgb(161, 236, 211);
+  justify-content: center;
+  align-content: center;
+  width: 80%;
+  margin-inline-end: 15px;
+}
+.firstname {
+  color: aqua;
+  font-size: medium;
+}
+.name {
+  color: red;
+}
+.mycommunity {
+   border-radius: 16px;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5px;
+}
+.community {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+
+}
+.community i {
+  color: blue;
+    font-size: xx-large;
+    margin-right: 10px;
+
+}
+.community p{
+  color: red;
+  margin-block-start: auto;
+}
+.community-icons{
+  display: flex;
+  justify-content: space-around;
+  font-size: xx-large;
+}
+.research {
+  background-color: green;
+  border-radius: 16px;
+  width: 90%;
+  justify-content: center;
+  margin: 5px auto;
+  border: 1px solid aqua;
+}
+
+.research1 {
+    background-color: rgb(37, 143, 108);
+    color: white;
+    display: flex;
+    
+    
+
+}
+.menu1 {
+  flex-basis: 30%;
+  padding: 2px;
+  background-color: rgb(246, 241, 241);
+  border: 1px solid wheat;
+  border-radius: 16px;
+}
+.menu1-boxes {
+  background-color: rgba(224, 215, 215, 0.827);
+  border: 1px solid white;
+}
+.kinover {
+  color: rgb(160, 238, 212);
+}
+.menu2 {
+  flex-basis: 60%;
+border: 1px solid green;
+padding: 2px;
+border-radius: 16px;
+padding-top: 5px;
+}
+.menu3 {
+  flex-basis: 5%;
+  font-size: x-large;
+  margin: 0;
+  padding: 3px;
+  border: 1px solid rgba(224, 215, 215, 0.827);
+  border-radius: 16px;
+}
+.emoji {
+  border: 1px solid aqua;
+  width: 90%;
+  border-radius: 16px;
+  justify-content: center;
+  margin: 0 auto;
+}
+.title ul {
+  list-style: none;
+}
+.emoji-boxes {
+  background-color: white;
+  border: 1px solid aqua;
+}
+.write {
+  width: 50%;
+}
