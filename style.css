@@ -30,7 +30,7 @@
   justify-content: space-between;
   margin: 5px auto;
   background-color: rgb(37, 143, 108);
-  border-radius: 16px;
+  border-radius: 24px;
   width: 90%;
   border: 1px solid aqua;
   
@@ -63,10 +63,11 @@
     padding-left: 10px;
 
 }
-.community i {
+.community i, .menu1-boxes i {
   color: blue;
     font-size: xx-large;
     margin-right: 10px;
+
 
 }
 .community p{
@@ -97,6 +98,8 @@
 }
 .menu1 {
   flex-basis: 30%;
+  height: 100%;
+  align-self: center;
   padding: 2px;
   background-color: rgb(246, 241, 241);
   border: 1px solid wheat;
@@ -107,7 +110,7 @@
   border: 1px solid white;
 }
 .kinover {
-  color: rgb(160, 238, 212);
+  color: rgb(85, 182, 161);
 }
 .menu2 {
   flex-basis: 60%;
@@ -134,10 +137,19 @@ padding-top: 5px;
 .title ul {
   list-style: none;
 }
+.title img {
+  width:120px;
+  margin: 5px;
+  border-radius: 16px;
+  border: 2px solid aqua;
+}
 .emoji-boxes {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border: 1px solid aqua;
 }
 .write {
   width: 50%;
+  color: green;
+  border: 1px solid aquamarine;
+  justify-content: space-between;
 }
